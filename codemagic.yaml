@@ -7,4 +7,5 @@ workflows:
       - flutter pub get
       - flutter build apk --debug
     artifacts:
-      - build/app/outputs/flutter-apk/app-debug.apk
+      artifacts:
+  - build/app/outputs/flutter-apk/app-debug.apk
