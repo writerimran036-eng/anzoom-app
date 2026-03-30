@@ -1,29 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
-import 'screens/login_screen.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'AnZoom',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        useMaterial3: true,
+      home: Scaffold(
+        appBar: AppBar(title: Text("Anzoom App")),
+        body: Center(child: Text("App Running 🚀")),
       ),
-      home: const LoginScreen(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
