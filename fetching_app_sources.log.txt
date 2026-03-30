@@ -1,0 +1,32 @@
+== Cloning repository https://github.com/writerimran036-eng/anzoom-app for main ==
+> /usr/bin/git clone --progress --branch main --depth 50 https://writerimran036-eng@github.com/writerimran036-eng/anzoom-app /Users/builder/clone
+Cloning into '/Users/builder/clone'...
+remote: Enumerating objects: 7, done.        
+remote: Counting objects:  14% (1/7)        
+remote: Counting objects:  28% (2/7)        
+remote: Counting objects:  42% (3/7)        
+remote: Counting objects:  57% (4/7)        
+remote: Counting objects:  71% (5/7)        
+remote: Counting objects:  85% (6/7)        
+remote: Counting objects: 100% (7/7)        
+remote: Counting objects: 100% (7/7), done.        
+remote: Compressing objects:  16% (1/6)        
+remote: Compressing objects:  33% (2/6)        
+remote: Compressing objects:  50% (3/6)        
+remote: Compressing objects:  66% (4/6)        
+remote: Compressing objects:  83% (5/6)        
+remote: Compressing objects: 100% (6/6)        
+remote: Compressing objects: 100% (6/6), done.        
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)        
+Receiving objects:  14% (1/7)
+Receiving objects:  28% (2/7)
+Receiving objects:  42% (3/7)
+Receiving objects:  57% (4/7)
+Receiving objects:  71% (5/7)
+Receiving objects:  85% (6/7)
+Receiving objects: 100% (7/7)
+Receiving objects: 100% (7/7), done.
+
+== Checking out commit hash 341a04d9e35996a3f68f8348de918dc23d7877d1 ==
+> /usr/bin/git reset --hard 341a04d9e35996a3f68f8348de918dc23d7877d1
+HEAD is now at 341a04d  pubspec.yaml

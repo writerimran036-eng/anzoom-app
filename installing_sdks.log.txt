@@ -1,0 +1,25 @@
+== Use Flutter channel stable ==
+> curl --fail --show-error --silent --output flutter_macos_arm64_3.41.6-stable.zip --connect-timeout 10.00 --max-time 300.00 https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.41.6-stable.zip
+
+> 7z -bd x flutter_macos_arm64_3.41.6-stable.zip
+
+7-Zip [64] 17.05 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.05 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+Scanning the drive for archives:
+1 file, 2143358747 bytes (2045 MiB)
+
+Extracting archive: flutter_macos_arm64_3.41.6-stable.zip
+--
+Path = flutter_macos_arm64_3.41.6-stable.zip
+Type = zip
+Physical Size = 2143358747
+
+Everything is Ok
+
+Folders: 4058
+Files: 17927
+Size:       4114813991
+Compressed: 2143358747
+
+Flutter 3.41.6 • Dart 3.11.4
